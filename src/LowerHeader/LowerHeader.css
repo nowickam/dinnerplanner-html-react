@@ -1,0 +1,12 @@
+.LowerHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    height: 4em;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+#backBtn{
+	margin:18px;
+}

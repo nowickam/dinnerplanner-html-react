@@ -1,0 +1,17 @@
+.SelectDish{
+    display:flex;
+    flex-direction:row;
+    height: 100%;
+}
+
+#searchView{
+    flex:2;
+    display:flex;
+    flex-direction:column;
+    height: 100%;
+}
+@media screen and (max-width: 600px){
+    .SelectDish {
+        flex-direction:column;
+    }
+}

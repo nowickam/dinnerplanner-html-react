@@ -1,0 +1,46 @@
+.button{
+    margin:10px;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 5px 5px;
+    background-color: orange;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.inactiveButton{
+    margin:10px;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 5px 5px;
+    white-space: nowrap;
+    background-color: darkgray;
+    color: gray;
+    pointer-events: none;
+}
+
+.App-header{
+    background-color: gainsboro;
+    height: 6em;
+    vertical-align: middle;
+    border-bottom: 2px solid darkgray;
+    border-top: 2px solid darkgray;
+}
+
+.App-title{
+    cursor: pointer;
+    font-size: 4em;
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 460){
+    .App-title{
+        font-size: 3em;
+        margin: 15px;
+    }
+}

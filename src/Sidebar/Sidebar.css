@@ -1,0 +1,51 @@
+#guestsChanger>input{
+    margin: 5px;
+    width: 30px;
+}
+
+.Sidebar{
+    min-width: 15em;
+    width: 15em;
+    /* border-right: 2px solid black; */
+    height: 100%; 
+    margin-right: 5px;
+}
+
+#searchIndex{
+    display:flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between; 
+    background-color: gainsboro;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+
+#totalCost{
+    text-align:right;
+}
+
+.item{
+    display:flex;
+    flex-direction:row;
+    background-color: rgb(233, 233, 233);
+    border:2px solid orange;
+    padding: 4px;
+    margin: 2px 0px 2px 0px;
+    cursor: pointer;
+}
+
+.itemPrice{
+    flex:1;
+    text-align: right;
+} 
+
+.itemName{
+    flex:3;
+}
+@media screen and (max-width: 600px){
+    .Sidebar {
+        width: 100%;
+        border-bottom: 2px solid black;
+    }
+}

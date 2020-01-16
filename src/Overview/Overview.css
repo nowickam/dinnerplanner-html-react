@@ -1,0 +1,68 @@
+.Overview{
+	padding-top: 10px;
+	text-align: center;
+}
+#printBtn{}
+#overview-menu{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+#emptyMenu{
+    margin: 20 px;
+}
+#dishItemsOverview{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+
+}
+#total-price{
+    display:flex;
+    flex-direction: column;
+    border-left:2px solid black;
+    white-space: pre-line;
+    justify-content: flex-end;
+    color: brown;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top:20px;
+    font-weight:bold;
+}
+#dishes-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media screen and (max-width:600px){ 
+    #overview-menu{
+        flex-direction:column;
+    }
+    #dishItemsOverview{
+        flex-direction:column;
+        text-align:center;
+    }
+    #item-container{
+        padding:10px;
+    }
+    .dishItems{
+        margin:0;
+        margin-top:15px;
+        margin-bottom:15px;
+        width:100%;
+    }
+    .dishItems img{
+        height:auto;
+        width:100%;
+    }
+
+    #total-price{
+        border-left:none;
+        padding:0;
+        padding-top:20px;
+        margin:10px 50px;
+        border-top: 2px solid black;
+    }
+} 
+
+	

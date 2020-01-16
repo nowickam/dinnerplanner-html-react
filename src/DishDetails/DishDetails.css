@@ -1,0 +1,40 @@
+#detailsTop{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+} 
+
+#dishDetails{
+    flex:3;
+}
+
+#descrText{
+    white-space: pre-line;
+}
+
+#descrImg{
+    border: 2px solid black;
+}
+
+#tableContainer{
+    height: fit-content;
+    width:fit-content;
+    max-width: 400px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: lemonchiffon;
+    flex:1;
+    margin:1em;
+}
+
+#table{
+    width:100%;
+}
+
+#lastLine{
+    display:flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between; 
+}
+

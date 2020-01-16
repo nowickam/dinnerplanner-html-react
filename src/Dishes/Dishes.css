@@ -1,0 +1,27 @@
+.dishItems{
+    margin: 20px;
+    border:2px solid black;
+    width:200px;
+    cursor: pointer;
+}
+
+.dishItems img{
+    height: 200px;
+    width:200px;
+    object-fit: cover;
+    border-bottom:2px solid black;
+    
+}
+
+.dishItems div{
+    text-align: center;
+}
+
+#dishList{
+    list-style: none;
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
